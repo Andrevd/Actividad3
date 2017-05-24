@@ -5,17 +5,15 @@
  */
 package actividad3;
 
-import java.util.Date;
-
 /**
  *
  * @author SENA
  */
 public class Secretario {
-    private String nombre;
+   private String nombre;
    private String apellido;
-  
-   
+   private Listado numerolistado;
+   private Recibo numerorecibo;
    
    
    public void setNombre(String nombre)
@@ -34,7 +32,14 @@ public class Secretario {
     {
         return apellido;
     }        
-
+    public void getnumerolistado(Listado numerolistado)
+        {
+        this.numerolistado=numerolistado;
+        }
+    public void setnumerorecibo(Recibo numerorecibo)
+    {
+    this.numerorecibo=numerorecibo;
+    }
 
 }
 

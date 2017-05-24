@@ -20,6 +20,7 @@ public class Recibo {
     private String ipcanual;
     private String porteria;
     private double iva;
+    private Local local1;
     
     
     
@@ -89,5 +90,12 @@ public class Recibo {
        return iva;
     }
     
-    
+    public void setlocal1(Local local1)
+    {
+    this.local1=local1;
+    }
+    public Local getlocal()
+    {
+    return local1;
+    }
 }

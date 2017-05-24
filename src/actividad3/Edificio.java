@@ -14,7 +14,7 @@ public class Edificio implements Inmueble{
     private String direccion;
    private int numero;
    private String codigo_postal;
-   
+   private Piso piso1=new Piso();
    public void setDireccion(String direccionP){
        this.direccion= direccionP;
    }
@@ -41,26 +41,24 @@ public class Edificio implements Inmueble{
 
     @Override
     public void dar_baja() {
+        System.out.println("Dar de baja  edificio");
     }
 
     @Override
     public void modificar() {
-        
+        System.out.println("Modificar  edificio");
     }
 
     @Override
     public void consultar() {
-        
+        System.out.println("consultar edificio");
     }
 
     @Override
     public void ingresar() {
-        
+        System.out.println("Ingresar nuevo edificio");
     }
 
-    @Override
-    public void nuevo_inm() {
-        
-    }
+   
     
 }
