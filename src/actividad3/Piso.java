@@ -9,7 +9,8 @@ package actividad3;
  *
  * @author sena
  */
-public class Piso  implements Inmueble{
+public class Piso implements Inmueble{
+    private Local local1= new Local();
     private String direccion;
    private int numero;
    private String codigo_postal;
@@ -40,19 +41,24 @@ public class Piso  implements Inmueble{
 
     @Override
     public void dar_baja() {
+        System.out.println("dar de baja piso");
     }
 
     @Override
     public void modificar() {
+        System.out.println("modificar piso");
     }
 
     @Override
     public void consultar() {
+        System.out.println("consultar piso");
     }
 
     @Override
     public void ingresar() {
-       
+       System.out.println("Ingresar nuevo piso");
     }
 public void nuevoP(){}
+
+
 }

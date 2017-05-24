@@ -39,24 +39,27 @@ public class Local implements Inmueble {
    }
 
     @Override
-    public void dar_baja() {
+    public void dar_baja() {System.out.println("dar de baja local");
        
     }
 
     @Override
     public void modificar() {
+        System.out.println("modificar local");
         
     }
 
     @Override
     public void consultar() {
-        
+        System.out.println("consultar local");
     }
 
     @Override
-    public void ingresar() {
+    public void ingresar() {System.out.println("Ingresar nuevo local");
         
     }
 
     public void nuevoL(){}
+
+  
 }

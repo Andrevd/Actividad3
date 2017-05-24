@@ -16,6 +16,6 @@ public interface Inmueble {
    public void modificar();
    public void consultar();
    public void ingresar();
-   public void nuevo_inm();
+  
    
 }

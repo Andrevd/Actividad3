@@ -15,7 +15,9 @@ public class Geconom {
    private String nombremovimiento;
    private Date fechamovimiento;
    private String tipomovimiento;
-  
+   private Informe numeroinforme;
+   private Cuenta saldo;
+   private Inmueble inmueble1;
    
    
    
@@ -42,5 +44,22 @@ public class Geconom {
     public String getTipomovimiento()
     {
         return tipomovimiento;
+    }
+     public void setNumeroinforme(Informe numeroinforme)
+    {
+    this.numeroinforme=numeroinforme;
+    } 
+    public void getNumeroinforme(Informe numeroinforme)
+    {
+    this.numeroinforme=numeroinforme;
+                                        
+    }
+    public void setSaldo(Cuenta saldo)
+    {
+    this.saldo=saldo;
+    }
+    public void getSaldo(Cuenta saldo)
+    {
+    this.saldo=saldo;
     }
 }

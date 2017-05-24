@@ -12,13 +12,24 @@ import java.util.Date;
  * @author SENA
  */
 public class Listado {
+    private int numerolistado;
     private int listadoinquilino;
     private Date fechalistado;
     private int listadopiso;
     private int listadoinmueble;
     private int listadolocal;
     private Recibo numerorecibo;
-    private Secretario nombre;
+    private Inquilino Nombre;
+    
+    
+    public void setNumerolistado(int numerolistado)
+    {
+    this.numerolistado=numerolistado;
+    }        
+    public int getNumerolistado()
+    {
+    return numerolistado;
+    }        
     
     
     public void setListadoinquilino(int listadoinquilino)
@@ -65,9 +76,9 @@ public class Listado {
     {
     this.numerorecibo=numerorecibo;
     } 
-    public void getnombre(Secretario nombre)
+    private void setNombre(Inquilino Nombre)
     {
-    this.nombre=nombre;
+    this.Nombre=Nombre;
     }
 }
 

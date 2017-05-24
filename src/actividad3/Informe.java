@@ -11,7 +11,7 @@ package actividad3;
  */
 public class Informe {
   private int numeroinforme;
-  private Geconom nombremovimiento;
+  
   
   public void setNumeroinforme(int numeroinforme)
     {
@@ -21,12 +21,5 @@ public class Informe {
     {
         return numeroinforme;
     }
-    public void setnombremovimiento(Geconom nombremovimiento)
-    {
-    this.nombremovimiento=nombremovimiento;
-    } 
-    public void getnombremovimiento(Geconom nombremovimiento)
-    {
-    this.nombremovimiento=nombremovimiento;
-    }
+   
 }
