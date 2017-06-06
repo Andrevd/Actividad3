@@ -13,7 +13,7 @@ import java.util.Date;
  */
 public class Recibo {
     private int numerorecibo;
-    private Date fechaemicion;
+    private Date fechaemision;
     private double renta;
     private double luz;
     private double agua;
@@ -33,13 +33,13 @@ public class Recibo {
         return numerorecibo;
     } 
     
-    public void setFechaemicion(Date fechaemicion)
+    public void setFechaemision(Date fechaemision)
     {
-    this.fechaemicion=fechaemicion;
+    this.fechaemision=fechaemision;
     }
-    public Date getFechaemicion()
+    public Date getFechaemision()
     {
-       return fechaemicion;
+       return fechaemision;
     }
     public void setRenta(double renta)
     {
